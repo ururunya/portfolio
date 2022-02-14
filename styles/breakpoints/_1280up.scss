@@ -1,0 +1,41 @@
+/******************************************************************
+
+Stylesheet: 1280px以上のモニタで適用
+
+******************************************************************/
+.hero {
+  &__heading {
+    & h2 {
+      font-size: 80px;
+      line-height: 98px;
+    }
+  }
+}
+
+.header {
+
+  &__ul > li {
+    width: 100px;
+
+    &:last-child {
+
+      & > a {
+        padding: 10px 15px;
+      }
+    }
+  }
+}
+
+.about {
+  padding: 160px 100px 0;
+
+  &__card-container {
+    gap: calc((100vw - 1280px) / 2);
+  }
+
+  &__card {
+    width: 540px;
+    height: 200px;
+    padding: 20px 40px;
+  }
+}

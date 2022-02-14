@@ -1,0 +1,12 @@
+/******************************************************************
+
+Stylesheet: 600px以上のタブレットやモニタで適用
+
+******************************************************************/
+
+.hero {
+  &-inner {
+    background-image: url("../images/unsplash_k_T9Zj3SE8k_L_compress.png");
+    background-position: right;
+  }
+}
